@@ -26,3 +26,18 @@ h1
 {
     font-size: 8vmin;
 }
+
+.btn
+{
+    border: 2px solid var( --color-option-1 );
+    color: var( --color-option-1 );
+    border-radius: 1vmin;
+    background: none;
+    font-size: 3vmin;
+    padding: 3vmin 10vmin;
+}
+
+.btn:focus
+{
+    outline: none;
+}

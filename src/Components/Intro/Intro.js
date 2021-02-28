@@ -10,7 +10,7 @@ function Intro()
                 <div className='container'>
                     <h1> Hi, </h1>
                     <h1> I'm Manor Hagage, </h1>
-                    <h1> A Web Developer </h1>
+                    <h1> A Web Developer. </h1>
                 </div>
                 <img src={ undrawImg } />
             </div>

@@ -38,7 +38,6 @@
 
 .intro .main .container h1
 {
-	font-size: 8vmin;
 	margin: 2vmin 0;
 	color: var(--color-option-2);
 	animation: slideFromLeft 0.5s linear 0.2s 1 normal forwards;
