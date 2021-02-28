@@ -32,7 +32,7 @@ const projects =
     },
     {
         title: 'Porsche Web Concept',
-        description: `Simple web concept for Porsche inspired <a target="_blank" href="https://dribbble.com/shots/14545255-Porsche-Website-Header-Concept"> this Dribbble </a> by Permadi Satria Dewanto.`,
+        description: `Simple web concept for Porsche based on <a target="_blank" href="https://dribbble.com/shots/14545255-Porsche-Website-Header-Concept"> this Dribbble </a> by Permadi Satria Dewanto.`,
         imgPath: PATH + 'porsche-web-concept.png',
         gitLink: 'https://github.com/manorhagage/Simple-Html-Designs/tree/main/porsche-web-concept',
         viewLink: 'https://shd-manor.netlify.app/porsche-web-concept/', 

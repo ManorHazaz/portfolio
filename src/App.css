@@ -33,11 +33,19 @@ h1
     color: var( --color-option-1 );
     border-radius: 1vmin;
     background: none;
-    font-size: 3vmin;
-    padding: 3vmin 10vmin;
+    font-size: 2vmin;
+    padding: 2vmin 5vmin;
+    margin: 1vmin;
+    box-shadow: 0 0 10px 0 var( --color-option-4 );
+    transition: 0.3s;
 }
 
 .btn:focus
 {
     outline: none;
+}
+
+.btn:hover
+{
+    transform: translateY( -1vmin );
 }

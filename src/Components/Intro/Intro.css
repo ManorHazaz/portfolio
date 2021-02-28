@@ -1,6 +1,7 @@
 .intro
 {
-    position: relative;
+    position: fixed;
+	top: 0;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -8,10 +9,10 @@
 	overflow: hidden;
 	background-color: var( --color-option-1 );
 
-	padding-bottom: 25vh;
+	/* padding-bottom: 25vh; */
 }
 
-.intro::after
+/* .intro::after
 {
 	content: '';
 	display: block;
@@ -24,7 +25,7 @@
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background-attachment: fixed;
     background-size: cover;
-}
+} */
 
 .intro .main
 {
@@ -95,7 +96,7 @@
     z-index: -1;
     opacity: 0.5;
 
-	animation: grow 0.5s linear 0.2s 1 normal forwards;
+	animation: grow 0.5s ease-in-out 0.2s 1 normal forwards;
 }
 
 .intro .title .shadow::after

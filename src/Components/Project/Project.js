@@ -1,25 +1,21 @@
 import './Project.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-
 function Project({ project })
 {
     return (
         <div className='project'>
-
-            <h3> { project.title } </h3>
             <div className='preview'>
                 <img src={ project.imgPath } />
             </div>
 
-            <div className='show-more'>
+            <div className='details'>
+
+                <h3> { project.title } </h3>
                 <p className='description' dangerouslySetInnerHTML={{ __html: project.description }}></p>
 
-                <div className='icons'>
-                    <FontAwesomeIcon className='icon' icon={ faGithub } onClick={()=> window.open( project.gitLink, "_blank")} />
-                    <FontAwesomeIcon className='icon' icon={ faEye } onClick={()=> window.open( project.viewLink, "_blank")} />
+                <div className='buttons'>
+                    <button className='btn github' onClick={()=> window.open( project.gitLink, "_blank")} > Github </button>
+                    <button className='btn preview' onClick={()=> window.open( project.viewLink, "_blank")} > Preview </button>
                 </div>
 
             </div>
