@@ -21,12 +21,6 @@
 .project .preview
 {
     width: 50%;
-    transition: 0.3s;
-}
-
-.project .preview:hover
-{
-    transform: translateY( -1vmin );
 }
 
 .project .preview img
