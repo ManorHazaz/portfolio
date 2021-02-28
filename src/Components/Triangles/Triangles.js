@@ -19,7 +19,7 @@ function Triangle()
             {
                 triangles.map( (triangle, index) => 
                 (
-                    <span className={`triangle triangle-${ triangle } position-${ index }`}></span>
+                    <span key={ index } className={`triangle triangle-${ triangle } position-${ index }`}></span>
                 ))
             }
         </>
