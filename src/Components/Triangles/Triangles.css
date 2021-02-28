@@ -1,0 +1,108 @@
+.triangle
+{
+    display: block;
+	position: absolute;
+    opacity: 0.2;
+	-webkit-clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.triangle-0
+{
+    background-color: var( --color-option-3 );
+}
+
+.triangle-1
+{
+    background-color: var( --color-option-1 );
+}
+
+.triangle-2
+{
+    background-color: var( --color-option-2 );
+}
+
+.triangle-3
+{
+    background-color: var( --color-option-3 );
+}
+
+.triangle-4
+{
+    background-color: var( --color-option-4 );
+}
+
+.triangle-5
+{
+    background-color: var( --color-option-2 );
+}
+
+.triangle-6
+{
+    background-color: var( --color-option-6 );
+}
+
+.position-0
+{
+    width: 20vw;
+	height: 32vh;
+	bottom: 50%;
+    left: -2%;
+    transform: rotate( 210deg );
+}
+
+.position-1
+{
+    width: 20vw;
+    height: 32vh;
+    bottom: 12%;
+    left: 4%;
+}
+
+.position-2
+{
+    width: 40vw;
+    height: 64vh;
+    top: 5%;
+    right: 0%;
+    transform: rotate( -5deg );
+}
+
+.position-3
+{
+    width: 10vw;
+	height: 16vh;
+    top: 50%;
+    left: 66%;
+    transform: rotate( 14deg );
+}
+
+.position-4
+{
+    width: 5vw;
+	height: 8vh;
+    top: 95%;
+    left: 60%;
+    transform: rotate( 140deg );
+}
+
+.position-5
+{
+    width: 15vw;
+	height: 24vh;
+    top: 3%;
+    left: 15%;
+    transform: rotate( 140deg );
+}
+
+.position-6
+{
+    width: 15vw;
+	height: 24vh;
+    top: 70%;
+    left: 87%;
+    transform: rotate( 140deg );
+}

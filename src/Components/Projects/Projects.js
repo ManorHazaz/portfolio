@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Project } from '../Project';
 
 import projects from '../../Data/Projects';
+import { Triangles } from '../Triangles';
 
 
 function Projects() 
@@ -25,7 +26,8 @@ function Projects()
             { 
                 limitProjects < projects.length 
                 && <button className='btn load-more' onClick={ () => setLimitProjects( limitProjects + 2 ) }> Load More! </button>
-            }            
+            }
+            <Triangles />  
         </div>
     )
 }
