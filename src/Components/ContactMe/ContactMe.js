@@ -23,10 +23,10 @@ function ContactMe()
             <p className='lighter'> Feel Free to Contact Me Via the Following Methods. </p>
             
             <div className='icons'>
-                <FontAwesomeIcon className='icon' icon={ faGithubSquare } />
-                <FontAwesomeIcon className='icon' icon={ faLinkedin } />
-                <FontAwesomeIcon className='icon' icon={ faEnvelope } />
-                <FontAwesomeIcon className='icon' icon={ faFilePdf } />
+                <FontAwesomeIcon className='icon' icon={ faGithubSquare } onClick={ () => window.open( 'https://github.com/manorhagage', "_blank")} />
+                <FontAwesomeIcon className='icon' icon={ faLinkedin } onClick={ () => window.open( 'https://www.linkedin.com/in/manor-hagage-662ab21a0/', "_blank")} />
+                <FontAwesomeIcon className='icon' icon={ faEnvelope } onClick={ () => window.open('mailto:manorhagage@gmail.com') } />
+                <a href='Static/CV/CV.pdf' download><FontAwesomeIcon className='icon' icon={ faFilePdf } /></a>
             </div>
 
             <footer> All rights reserved to Manor Hagage © { new Date().getFullYear() } </footer>
