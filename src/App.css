@@ -37,8 +37,10 @@ h1
     font-size: 2vmin;
     padding: 2vmin 5vmin;
     margin: 1vmin;
+    background-color: var( --color-option-1-ligther );
     box-shadow: 0 0 10px 0 var( --color-option-4 );
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .btn:focus
@@ -49,4 +51,17 @@ h1
 .btn:hover
 {
     transform: translateY( -1vmin );
+}
+
+@media screen and (max-width: 600px) 
+{
+    h1
+    {
+        font-size: 10vmin;
+    }
+
+    .btn
+    {
+        font-size: 3vmin;
+    }
 }

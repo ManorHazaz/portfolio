@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     align-self: flex-start;
-    margin: 5vmin 15vmin;
+    margin: 5vmin 15vmin
 }
 
 .project:nth-child(2n)
@@ -44,6 +44,7 @@
     color: var( --color-option-1 );
     font-size: 5vmin;
     margin: 1vmin;
+    text-align: center;
 }
 
 .project .details .description a
@@ -84,4 +85,39 @@
 {
     color: var( --color-option-5 );
     background-color: var( --color-option-3 );
+}
+
+@media screen and (max-width: 600px) 
+{
+    .project
+    {
+        flex-direction: column;
+        width: 90vw;
+        margin: 5vmin auto;
+        padding: 5vmin 0;
+    }
+
+    .project:nth-child(2n)
+    {
+        flex-direction: column;
+        width: 90vw;
+        margin: 5vmin auto;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 1vmin;
+    }
+
+    .project .details
+    {
+        width: 90%;
+    }
+
+    .project .details h3
+    {
+        margin-top: 2vmin;
+    }
+
+    .project .details .description
+    {
+        margin: 1vmin;
+    }
 }

@@ -67,7 +67,7 @@
     width: 40vw;
     height: 64vh;
     top: 5%;
-    right: 2%;
+    right: 8%;
     transform: rotate( -5deg );
 }
 
@@ -104,5 +104,5 @@
 	height: 24vh;
     top: 70%;
     right: 2%;
-    transform: rotate( 140deg );
+    transform: rotate( 175deg );
 }

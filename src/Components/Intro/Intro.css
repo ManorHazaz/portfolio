@@ -22,7 +22,7 @@
 
 .intro .main .container h1
 {
-	margin: 2vmin 0;
+    margin: 2vmin;
 	color: var(--color-option-2);
 	animation: slideFromLeft 0.5s ease-in-out 0.2s 1 normal forwards;
 }
@@ -37,6 +37,7 @@
 	position: absolute;
 	width: 60%;
 	opacity: 0.08;
+	z-index: -2;
 }
 
 .intro .title
@@ -106,6 +107,39 @@
     left: 89%;
 }
 
+@media screen and (max-width: 600px) 
+{
+	.intro
+	{
+		flex-direction: column;
+		justify-content: center;
+		padding-bottom: 10vh;
+	}
+
+	.intro .main
+	{
+		align-self: flex-start;
+		margin: 10vmin;
+	}
+
+	.intro .main img
+	{
+		display: none;
+	}
+
+	.intro .title
+	{
+		height: 40vh;
+    	align-self: flex-end;
+	}
+
+	.intro .title .letter::before, .intro .title .letter::after, .intro .title .shadow::before, .intro .title .shadow::after
+	{
+		min-height: 100vh;
+		opacity: 0.3;
+	}
+}
+
 @keyframes grow 
 {
 	0% 
@@ -130,4 +164,3 @@
 		transform: translateX( 0 );
 	}
 }
-  
