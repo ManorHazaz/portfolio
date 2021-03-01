@@ -16,11 +16,11 @@ function ContactMe()
             </div>
 
             <h1> Contact Me </h1>
-            <p> Hi visitor, if scrolled all the way to here you probably want to know more about me. </p>
-            <p> My relatiosnship with programming started when I was in high scholl. </p>
-            <p> Having the abilty to create something from scratch with just few code lines is amazing. </p>
-            <p> Add to that the fact that the internat is full of informations so for an autodidact like me, the options are unlimited. </p>
-            <p className='lighter'> If you liked what you see or you have other request or question, don’t hesitate to contact me via the following methoeds. </p>
+            <p> Hi you, if scrolled all the way to this point, you probably want to know more about me... </p>
+            <p> I started programming when I was in high school. </p>
+            <p> Having the abilty to create webiste or program from scratch with just few code lines, it was almost like a magic. </p>
+            <p> As a self-taught programmer with the endless data that exist on the internet, I feel like the options are unlimited. </p>
+            <p className='lighter'> Feel Free to Contact Me Via the Following Methods. </p>
             
             <div className='icons'>
                 <FontAwesomeIcon className='icon' icon={ faGithubSquare } />
