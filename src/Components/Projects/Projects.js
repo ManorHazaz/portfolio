@@ -25,7 +25,7 @@ function Projects()
             </div>
             { 
                 limitProjects < projects.length 
-                && <button className='btn load-more' onClick={ () => setLimitProjects( limitProjects + 2 ) }> Load More! </button>
+                && <button className='btn load-more' onClick={ () => setLimitProjects( limitProjects + 2 ) }> Show More! </button>
             }
             <Triangles />  
         </div>

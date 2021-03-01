@@ -14,8 +14,8 @@ function Project({ project })
                 <p className='description' dangerouslySetInnerHTML={{ __html: project.description }}></p>
 
                 <div className='buttons'>
-                    <button className='btn github' onClick={()=> window.open( project.gitLink, "_blank")} > Github </button>
-                    <button className='btn preview' onClick={()=> window.open( project.viewLink, "_blank")} > Preview </button>
+                    <button className='btn github' onClick={()=> window.open( project.gitLink, "_blank")} > GitHub </button>
+                    <button className='btn preview' onClick={()=> window.open( project.viewLink, "_blank")} > Demo </button>
                 </div>
 
             </div>
