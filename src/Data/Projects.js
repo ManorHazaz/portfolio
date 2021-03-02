@@ -31,11 +31,11 @@ const projects =
         viewLink: 'https://fortnite-api.netlify.app/', 
     },
     {
-        title: 'Porsche Web Concept',
-        description: `Simple web concept for Porsche based on <a target="_blank" href="https://dribbble.com/shots/14545255-Porsche-Website-Header-Concept"> this Dribbble </a> by Permadi Satria Dewanto.`,
-        imgPath: PATH + 'porsche-web-concept.png',
-        gitLink: 'https://github.com/manorhagage/Simple-Html-Designs/tree/main/porsche-web-concept',
-        viewLink: 'https://shd-manor.netlify.app/porsche-web-concept/', 
+        title: 'Users Management',
+        description: 'Users data management with SQL database and Rest API in PHP.',
+        imgPath: PATH + 'users-management.png',
+        gitLink: 'https://github.com/manorhagage/Users-Management---SQL',
+        viewLink: 'http://users-management.rf.gd/', 
     },
     {
         title: 'Mygram',
@@ -43,6 +43,13 @@ const projects =
         imgPath: PATH + 'mygram.png',
         gitLink: 'https://github.com/manorhagage/mygram',
         viewLink: 'http://mygram-app.herokuapp.com/', 
+    },
+    {
+        title: 'Porsche Web Concept',
+        description: `Simple web concept for Porsche based on <a target="_blank" href="https://dribbble.com/shots/14545255-Porsche-Website-Header-Concept"> this Dribbble </a> by Permadi Satria Dewanto.`,
+        imgPath: PATH + 'porsche-web-concept.png',
+        gitLink: 'https://github.com/manorhagage/Simple-Html-Designs/tree/main/porsche-web-concept',
+        viewLink: 'https://shd-manor.netlify.app/porsche-web-concept/', 
     },
 ];
 
