@@ -55,25 +55,14 @@
     flex-direction: column;
 }
 
+.projects .load-more
+{
+    width: 40vmin;
+    font-weight: 600;
+}
+
 .projects .load-more:hover
 {
     color: var( --color-option-5 );
     background-color: var( --color-option-1 );
 }
-
-
-/* @media screen and (max-width: 1024px) 
-{
-    .projects
-    {
-        overflow-x: hidden;
-    }
-}
-
-@media screen and (max-width: 600px) 
-{
-    .projects
-    {
-        overflow-x: hidden;
-    }
-} */

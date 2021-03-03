@@ -16,10 +16,10 @@ function ContactMe()
             </div>
 
             <h1> Contact Me </h1>
-            <p> Hi you, if scrolled all the way to this point, you probably want to know more about me... </p>
+            <p> Hi, if you scrolled all the way to this point, you probably want to know more about me... </p>
             <p> I was introduced to programming when I was in high school. </p>
             <p> Having the abilty to create a webiste or a program from scratch with just few lines of code, was almost like a magic. </p>
-            <p> As a self-taught programmer with endless access to all data that exist on the internet, I feel like the options are unlimited. </p>
+            <p> As a self-taught programmer with endless access to all data that exists on the internet, I feel like the options are unlimited. </p>
             <p className='lighter'> Feel Free to Contact Me Via the Following Methods. </p>
             
             <div className='icons'>
