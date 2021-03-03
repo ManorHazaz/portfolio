@@ -51,6 +51,13 @@ const projects =
         gitLink: 'https://github.com/manorhagage/Simple-Html-Designs/tree/main/porsche-web-concept',
         viewLink: 'https://shd-manor.netlify.app/porsche-web-concept/', 
     },
+    {
+        title: 'Todo List',
+        description: `A Todo List created using React, based on <a target="_blank" href="https://dribbble.com/shots/9973059-To-do-App-Micro-interactions-Concept"> this Dribbble </a> by Gabriel Antony.`,
+        imgPath: PATH + 'todo-list.png',
+        gitLink: 'https://github.com/manorhagage/todo-list',
+        viewLink: 'https://todo-list-manor.netlify.app/', 
+    },
 ];
 
 export default projects;
