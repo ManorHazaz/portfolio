@@ -35,7 +35,7 @@ const projects =
         description: 'Users data management with SQL database and Rest API in PHP.',
         imgPath: PATH + 'users-management.png',
         gitLink: 'https://github.com/manorhagage/Users-Management---SQL',
-        viewLink: 'http://users-management.rf.gd/', 
+        viewLink: 'https://user-managemant.herokuapp.com/', 
     },
     {
         title: 'Mygram',
